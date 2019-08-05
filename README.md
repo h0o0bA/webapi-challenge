@@ -26,13 +26,34 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  1.  Express is a middleware and it contains 3 type :
+      built-in middleware.
+      third party middleware.
+      custom middleware.
+
+  2.  Middleware functions can take 3 parameters
+      request, response and next.
+
 - [ ] Describe Middleware?
+
+  Middleware is of of Express main features. Everything in Express is Middleware.
+  Middleware are functions in express that can get request and response objects return the response or call the next middleware.
+  Express is a chain of middleware code.
+  Middleware provide a way to extend the features provided by the Express framework.
 
 - [ ] Describe a Resource?
 
+  Resources are the data or things that we want to manage.
+  examples of resources are Users, Clients, Orders, products, Returns .
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+  A server can return HTTP response to the client.
+  The response comes with completion status information about the request .
+
 - [ ] How can we partition our application into sub-applications?
+
+  We can partition our application and organize the API taking advantage of Express Routers.
 
 ## Project Setup
 
