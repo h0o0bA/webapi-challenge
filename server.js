@@ -1,6 +1,6 @@
 const express = require("express");
-const projectsRouter = require("./projectRouter");
-const actionsRouter = require("./actionRouter");
+const projectsRouter = require("./projects/projectRouter");
+const actionsRouter = require("./actions/actionRouter");
 const server = express();
 
 server.use(express.json());

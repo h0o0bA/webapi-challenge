@@ -1,7 +1,7 @@
 const express = require("express");
 
 const router = express.Router();
-const actionDb = require("./data/helpers/actionModel");
+const actionDb = require("../data/helpers/actionModel");
 
 router.get("/", (req, res) => {
   actionDb
